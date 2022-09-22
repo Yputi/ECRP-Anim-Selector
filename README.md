@@ -6,3 +6,6 @@ This repository includes the following:
 2. The AHK script itself.
 
 AHK is required for this anim selector to work! Make sure AHK has been installed and set up.
+
+Standard hotkey to open the menu is set on "F10". This can be changed by the user (May require you to look through AHK documentation for some more unique hotkeys).
+"Favorites" are left empty and separated by 2 "comment" lines for easier recognition for some users.

@@ -5,8 +5,6 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #SingleInstance Force
 
 F10::
-
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 Menu, SubMenu0, Add, FAVORITE1, MenuHandler
@@ -23,8 +21,6 @@ Menu, SubMenu0, Add, FAVORITE10, MenuHandler
 Menu, FullMenu, Add, Favorites, :SubMenu0
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-
-
 Menu, SubMenu1.1, Add, DJ, MenuHandler
 Menu, SubMenu1.1, Add, Airsynth, MenuHandler
 Menu, SubMenu1.1, Add, Airguitar, MenuHandler
@@ -34,11 +30,9 @@ Menu, SubMenu1.1, Add, PlayPiano, MenuHandler
 Menu, SubMenu1.1, Add, PlayBass, MenuHandler
 Menu, SubMenu1, Add, Instruments, :SubMenu1.1
 
-
 Menu, SubMenu1.2, Add, Bobbing, MenuHandler
 Menu, SubMenu1.2, Add, Bobbing2, MenuHandler
 Menu, SubMenu1, Add, Bobbing, :SubMenu1.2
-
 
 Menu, SubMenu1.3, Add, Clown, MenuHandler
 Menu, SubMenu1.3, Add, Clown2, MenuHandler
@@ -46,7 +40,6 @@ Menu, SubMenu1.3, Add, Clown3, MenuHandler
 Menu, SubMenu1.3, Add, Clown4, MenuHandler
 Menu, SubMenu1.3, Add, Clown5, MenuHandler
 Menu, SubMenu1, Add, Clown, :SubMenu1.3
-
 
 Menu, SubMenu1.4, Add, Dance, MenuHandler
 Menu, SubMenu1.4, Add, Dance2, MenuHandler
@@ -89,7 +82,6 @@ Menu, SubMenu1.6, Add, DanceF17, MenuHandler
 Menu, SubMenu1.6, Add, DanceF18, MenuHandler
 Menu, SubMenu1, Add, Dance Female, :SubMenu1.6
 
-
 Menu, SubMenu1.7, Add, DanceM, MenuHandler
 Menu, SubMenu1.7, Add, DanceM2, MenuHandler
 Menu, SubMenu1.7, Add, DanceM3, MenuHandler
@@ -124,7 +116,6 @@ Menu, SubMenu1.10, Add, DanceSilly8, MenuHandler
 Menu, SubMenu1.10, Add, DanceSilly9, MenuHandler
 Menu, SubMenu1, Add, Dance Silly, :SubMenu1.10
 
-
 Menu, SubMenu1.11, Add, DanceSlow, MenuHandler
 Menu, SubMenu1.11, Add, DanceSlow2, MenuHandler
 Menu, SubMenu1.11, Add, DanceSlow3, MenuHandler
@@ -144,13 +135,11 @@ Menu, SubMenu1.14, Add, JazzHands, MenuHandler
 Menu, SubMenu1.14, Add, JazzHands2, MenuHandler
 Menu, SubMenu1, Add, Jazz Hands, :SubMenu1.14
 
-
 Menu, SubMenu1.15, Add, LapDance, MenuHandler
 Menu, SubMenu1.15, Add, LapDance2, MenuHandler
 Menu, SubMenu1.15, Add, LapDance3, MenuHandler
 Menu, SubMenu1.15, Add, LapDance4, MenuHandler
 Menu, SubMenu1, Add, Lap Dance, :SubMenu1.15
-
 
 Menu, SubMenu1.16, Add, SalsaRoll, MenuHandler
 Menu, SubMenu1.16, Add, SalsaRoll2, MenuHandler
@@ -164,7 +153,6 @@ Menu, SubMenu1.18, Add, UncleDisco, MenuHandler
 Menu, SubMenu1.18, Add, UncleDisco2, MenuHandler
 Menu, SubMenu1, Add, Uncle Disco, :SubMenu1.18
 
-
 Menu, SubMenu1.19, Add, Woogie, MenuHandler
 Menu, SubMenu1.19, Add, Woogie2, MenuHandler
 Menu, SubMenu1, Add, Woogie, :SubMenu1.19
@@ -175,7 +163,6 @@ Menu, SubMenu1.20, Add, PodiumDance, MenuHandler
 Menu, SubMenu1, Add, Other, :SubMenu1.20
 
 Menu, FullMenu, Add, Dances, :SubMenu1
-
 
 Menu, SubMenu2.1, Add, Cop, MenuHandler
 Menu, SubMenu2.1, Add, Cop2, MenuHandler
@@ -228,7 +215,6 @@ Menu, SubMenu2, Add, Idle, :SubMenu2.6
 Menu, SubMenu2.7, Add, Impatient, MenuHandler
 Menu, SubMenu2.7, Add, Impatient2, MenuHandler
 Menu, SubMenu2, Add, Impatient, :SubMenu2.7
-
 
 Menu, SubMenu2.8.1, Add, Lean, MenuHandler
 Menu, SubMenu2.8.1, Add, Lean2, MenuHandler
@@ -377,8 +363,8 @@ Menu, SubMenu2.21, Add, Warming, MenuHandler
 Menu, SubMenu2.21, Add, WashFace, MenuHandler
 Menu, SubMenu2.21, Add, Wasted, MenuHandler
 Menu, SubMenu2, Add, Other, :SubMenu2.21
-Menu, FullMenu, Add, Stances, :SubMenu2
 
+Menu, FullMenu, Add, Stances, :SubMenu2
 
 Menu, SubMenu3.1.1, Add, Sit, MenuHandler
 Menu, SubMenu3.1.1, Add, Sit2, MenuHandler
@@ -432,11 +418,9 @@ Menu, SubMenu3.2, Add, SitStairs, MenuHandler
 Menu, SubMenu3.2, Add, SitWorried, MenuHandler
 Menu, SubMenu3, Add, Sit on object, :SubMenu3.2
 
-
 Menu, SubMenu3.3, Add, Crouch, MenuHandler
 Menu, SubMenu3.3, Add, Crouch2, MenuHandler
 Menu, SubMenu3, Add, Crouch, :SubMenu3.3
-
 
 Menu, SubMenu3.4, Add, Kneel, MenuHandler
 Menu, SubMenu3.4, Add, Kneel2, MenuHandler
@@ -446,11 +430,9 @@ Menu, SubMenu3, Add, Kneel, :SubMenu3.4
 
 Menu, FullMenu, Add, Sit/Crouch/Kneel, :SubMenu3
 
-
 Menu, SubMenu4.1, Add, CloudGaze, MenuHandler
 Menu, SubMenu4.1, Add, CloudGaze2, MenuHandler
 Menu, SubMenu4, Add, Cloud Gaze, :SubMenu4.1
-
 
 Menu, SubMenu4.2, Add, Down, MenuHandler
 Menu, SubMenu4.2, Add, Down2, MenuHandler
@@ -458,7 +440,6 @@ Menu, SubMenu4.2, Add, Down3, MenuHandler
 Menu, SubMenu4.2, Add, Down4, MenuHandler
 Menu, SubMenu4.2, Add, Down5, MenuHandler
 Menu, SubMenu4, Add, Down, :SubMenu4.2
-
 
 Menu, SubMenu4.3, Add, PassOut, MenuHandler
 Menu, SubMenu4.3, Add, PassOut2, MenuHandler
@@ -471,12 +452,10 @@ Menu, SubMenu4.4, Add, Slumped, MenuHandler
 Menu, SubMenu4.4, Add, Slumped2, MenuHandler
 Menu, SubMenu4, Add, Slumped, :SubMenu4.4
 
-
 Menu, SubMenu4.5, Add, SunBathe, MenuHandler
 Menu, SubMenu4.5, Add, SunBathe2, MenuHandler
 Menu, SubMenu4.5, Add, SunBathe3, MenuHandler
 Menu, SubMenu4, Add, Sun bathing, :SubMenu4.5
-
 
 Menu, SubMenu4.6, Add, Chill, MenuHandler
 Menu, SubMenu4.6, Add, LayDown, MenuHandler
@@ -484,13 +463,12 @@ Menu, SubMenu4.6, Add, LayingInPain, MenuHandler
 Menu, SubMenu4.6, Add, Prone, MenuHandler
 Menu, SubMenu4.6, Add, Sleep, MenuHandler
 Menu, SubMenu4, Add, Other, :SubMenu4.6
-Menu, FullMenu, Add, Laydown, :SubMenu4
 
+Menu, FullMenu, Add, Laydown, :SubMenu4
 
 Menu, SubMenu5.1.1, Add, Arrest, MenuHandler
 Menu, SubMenu5.1.1, Add, HandsUp, MenuHandler
 Menu, SubMenu5.1, Add, Standing, :SubMenu5.1.1
-
 
 Menu, SubMenu5.1.2, Add, Down2, MenuHandler
 Menu, SubMenu5.1.2, Add, Down3, MenuHandler
@@ -513,6 +491,7 @@ Menu, SubMenu5.3.1, Add, Frightened4, MenuHandler
 Menu, SubMenu5.3, Add, Frightened, :SubMenu5.3.1
 Menu, SubMenu5, Add, Scared, :SubMenu5.3
 Menu, SubMenu5, Add, UnCuff, MenuHandler
+
 Menu, FullMenu, Add, Hostage/Detaining, :SubMenu5
 
 Menu, SubMenu6, Add, Adjust, MenuHandler
@@ -524,9 +503,8 @@ Menu, SubMenu6.1, Add, TryClothes, MenuHandler
 Menu, SubMenu6.1, Add, TryClothes2, MenuHandler
 Menu, SubMenu6.1, Add, TryClothes3, MenuHandler
 Menu, SubMenu6, Add, Try Clothes, :SubMenu6.1
+
 Menu, FullMenu, Add, Clothing, :SubMenu6
-
-
 
 Menu, SubMenu7, Add, Angry, MenuHandler
 
@@ -540,7 +518,6 @@ Menu, SubMenu7, Add, Depressed, :SubMenu7.2
 
 Menu, SubMenu7, Add, Distressed, MenuHandler
 
-
 Menu, SubMenu7.3, Add, FacePalm, MenuHandler
 Menu, SubMenu7.3, Add, FacePalm2, MenuHandler
 Menu, SubMenu7.3, Add, FacePalm3, MenuHandler
@@ -553,7 +530,6 @@ Menu, SubMenu7.4, Add, Frightened2, MenuHandler
 Menu, SubMenu7.4, Add, Frightened3, MenuHandler
 Menu, SubMenu7.4, Add, Frightened4, MenuHandler
 Menu, SubMenu7, Add, Frightened, :SubMenu7.4
-
 
 Menu, SubMenu7.5, Add, Nervous, MenuHandler
 Menu, SubMenu7.5, Add, Nervous2, MenuHandler
@@ -576,8 +552,8 @@ Menu, SubMenu7, Add, Shy, :SubMenu7.7
 Menu, SubMenu7.8, Add, Worried, MenuHandler
 Menu, SubMenu7.8, Add, SitWorried, MenuHandler
 Menu, SubMenu7, Add, Worried, :SubMenu7.8
-Menu, FullMenu, Add, Emotions, :SubMenu7
 
+Menu, FullMenu, Add, Emotions, :SubMenu7
 
 Menu, SubMenu8, Add, Beast, MenuHandler
 
@@ -592,21 +568,17 @@ Menu, SubMenu8.2, Add, KnuckleCrunch, MenuHandler
 Menu, SubMenu8.2, Add, KnuckleCrunch2, MenuHandler
 Menu, SubMenu8, Add, Challenge someone, :SubMenu8.2
 
-
 Menu, SubMenu8.3, Add, Headbutt, MenuHandler
 Menu, SubMenu8.3, Add, Punching, MenuHandler
 Menu, SubMenu8.3, Add, Slap, MenuHandler
 Menu, SubMenu8, Add, Attacks, :SubMenu8.3
 
-
 Menu, FullMenu, Add, Fight, :SubMenu8
-
 
 Menu, SubMenu9.1, Add, Bark, MenuHandler
 Menu, SubMenu9.1, Add, Bird, MenuHandler
 Menu, SubMenu9.1, Add, Rabbit, MenuHandler
 Menu, SubMenu9, Add, Animals, :SubMenu9.1
-
 
 Menu, SubMenu9.2, Add, Freakout, MenuHandler
 Menu, SubMenu9.2, Add, Freakout2, MenuHandler
@@ -622,7 +594,6 @@ Menu, SubMenu9.4, Add, LOL, MenuHandler
 Menu, SubMenu9.4, Add, LOL2, MenuHandler
 Menu, SubMenu9, Add, LOL, :SubMenu9.4
 
-
 Menu, SubMenu9.5, Add, MindControl, MenuHandler
 Menu, SubMenu9.5, Add, MindControl2, MenuHandler
 Menu, SubMenu9, Add, Mind control, :SubMenu9.5
@@ -632,7 +603,6 @@ Menu, SubMenu9, Add, Wank, MenuHandler
 
 Menu, FullMenu, Add, Goofy, :SubMenu9
 
-
 Menu, SubMenu10.1, Add, Bow, MenuHandler
 Menu, SubMenu10.1, Add, Bow2, MenuHandler
 Menu, SubMenu10, Add, Bow, :SubMenu10.1
@@ -640,7 +610,6 @@ Menu, SubMenu10, Add, Bow, :SubMenu10.1
 Menu, SubMenu10.2, Add, BroLove, MenuHandler
 Menu, SubMenu10.2, Add, BroLove2, MenuHandler
 Menu, SubMenu10, Add, Bro love, :SubMenu10.2
-
 
 Menu, SubMenu10.3, Add, Damn, MenuHandler
 Menu, SubMenu10.3, Add, Damn2, MenuHandler
@@ -655,7 +624,6 @@ Menu, SubMenu10.5, Add, Hug, MenuHandler
 Menu, SubMenu10.5, Add, Hug2, MenuHandler
 Menu, SubMenu10.5, Add, Hug3, MenuHandler
 Menu, SubMenu10, Add, Hugs, :SubMenu10.5
-
 
 Menu, SubMenu10.6, Add, Knock, MenuHandler
 Menu, SubMenu10.6, Add, Knock2, MenuHandler
@@ -677,12 +645,9 @@ Menu, SubMenu10.9, Add, Ok2, MenuHandler
 Menu, SubMenu10.9, Add, Yeah, MenuHandler
 Menu, SubMenu10, Add, Ok, :SubMenu10.9
 
-
-
 Menu, SubMenu10.10, Add, Photo, MenuHandler
 Menu, SubMenu10.10, Add, Photo2, MenuHandler
 Menu, SubMenu10, Add, Photo, :SubMenu10.10
-
 
 Menu, SubMenu10.11, Add, Point, MenuHandler
 Menu, SubMenu10.11, Add, PointDown, MenuHandler
@@ -695,11 +660,9 @@ Menu, SubMenu10.12, Add, Salute3, MenuHandler
 Menu, SubMenu10.12, Add, Salute4, MenuHandler
 Menu, SubMenu10, Add, Salute, :SubMenu10.12
 
-
 Menu, SubMenu10.13, Add, Shrug, MenuHandler
 Menu, SubMenu10.13, Add, Shrug2, MenuHandler
 Menu, SubMenu10, Add, Shrug, :SubMenu10.13
-
 
 Menu, SubMenu10.14, Add, Smell, MenuHandler
 Menu, SubMenu10.14, Add, Stink, MenuHandler
@@ -718,7 +681,6 @@ Menu, SubMenu10.16, Add, ThumbsUp5, MenuHandler
 Menu, SubMenu10.16, Add, ThumbsUp6, MenuHandler
 Menu, SubMenu10, Add, Thumbs up, :SubMenu10.16
 
-
 Menu, SubMenu10.17, Add, Wave, MenuHandler
 Menu, SubMenu10.17, Add, Wave2, MenuHandler
 Menu, SubMenu10.17, Add, Wave3, MenuHandler
@@ -735,7 +697,6 @@ Menu, SubMenu10.17, Add, Wave13, MenuHandler
 Menu, SubMenu10.17, Add, Wave14, MenuHandler
 Menu, SubMenu10, Add, Wave, :SubMenu10.17
 
-
 Menu, SubMenu10.18, Add, What, MenuHandler
 Menu, SubMenu10.18, Add, What2, MenuHandler
 Menu, SubMenu10, Add, What, :SubMenu10.18
@@ -744,8 +705,6 @@ Menu, SubMenu10.19, Add, Whistle, MenuHandler
 Menu, SubMenu10.19, Add, Whistle2, MenuHandler
 Menu, SubMenu10.19, Add, Taxi, MenuHandler
 Menu, SubMenu10, Add, Whistles, :SubMenu10.19
-
-
 
 Menu, SubMenu10.20, Add, BlowKiss, MenuHandler
 Menu, SubMenu10.20, Add, Boi, MenuHandler
@@ -764,9 +723,6 @@ Menu, SubMenu10, Add, Other, :SubMenu10.20
 
 Menu, FullMenu, Add, Interaction, :SubMenu10
 
-
-
-
 Menu, SubMenu11.1, Add, CashRain, MenuHandler
 Menu, SubMenu11.1, Add, CashRain2, MenuHandler
 Menu, SubMenu11, Add, Cash rain, :SubMenu11.1
@@ -781,8 +737,6 @@ Menu, SubMenu11.3, Add, Lapdance3, MenuHandler
 Menu, SubMenu11.3, Add, Lapdance4, MenuHandler
 Menu, SubMenu11, Add, Lapdance, :SubMenu11.3
 
-
-
 Menu, SubMenu11.4, Add, Twerk, MenuHandler
 Menu, SubMenu11.4, Add, Twerk2, MenuHandler
 Menu, SubMenu11, Add, Twerk, :SubMenu11.4
@@ -791,8 +745,6 @@ Menu, SubMenu11, Add, Hooker, MenuHandler
 Menu, SubMenu11, Add, WatchStrip, MenuHandler
 
 Menu, FullMenu, Add, Stripclub, :SubMenu11
-
-
 
 Menu, SubMenu12.1, Add, Cheer, MenuHandler
 Menu, SubMenu12.1, Add, Cheer2, MenuHandler
@@ -817,12 +769,9 @@ Menu, SubMenu12, Add, Countdown, MenuHandler
 
 Menu, FullMenu, Add, Cheer/Celebrate, :SubMenu12
 
-
-
 Menu, SubMenu13.1, Add, Chicken, MenuHandler
 Menu, SubMenu13.1, Add, Chicken2, MenuHandler
 Menu, SubMenu13, Add, Chicken, :SubMenu13.1
-
 
 Menu, SubMenu13.2, Add, ChinBrush, MenuHandler
 Menu, SubMenu13.2, Add, ChinBrush2, MenuHandler
@@ -846,7 +795,6 @@ Menu, SubMenu13.6, Add, Finger, MenuHandler
 Menu, SubMenu13.6, Add, Finger2, MenuHandler
 Menu, SubMenu13, Add, Finger, :SubMenu13.6
 
-
 Menu, SubMenu13.7, Add, FlipOff, MenuHandler
 Menu, SubMenu13.7, Add, FlipOff2, MenuHandler
 Menu, SubMenu13.7, Add, FlipOff3, MenuHandler
@@ -859,11 +807,9 @@ Menu, SubMenu13.8, Add, Shush, MenuHandler
 Menu, SubMenu13.8, Add, Shush2, MenuHandler
 Menu, SubMenu13, Add, Shush, :SubMenu13.8
 
-
 Menu, SubMenu13.9, Add, SlowClap2, MenuHandler
 Menu, SubMenu13.9, Add, SlowClap3, MenuHandler
 Menu, SubMenu13, Add, Slow clap, :SubMenu13.9
-
 
 Menu, SubMenu13.10, Add, ThumbOnEars, MenuHandler
 Menu, SubMenu13.10, Add, ThumbOnEars2, MenuHandler
@@ -876,7 +822,6 @@ Menu, SubMenu13, Add, Thumbs down, :SubMenu13.11
 Menu, SubMenu13, Add, Wank, MenuHandler
 
 Menu, FullMenu, Add, Mocking, :SubMenu13
-
 
 Menu, SubMenu14.1, Add, Photo, MenuHandler
 Menu, SubMenu14.1, Add, Photo2, MenuHandler
@@ -892,8 +837,6 @@ Menu, SubMenu14.2, Add, Type4, MenuHandler
 Menu, SubMenu14, Add, Type, :SubMenu14.2
 
 Menu, FullMenu, Add, Work, :SubMenu14
-
-
 
 Menu, SubMenu15.1, Add, CPR, MenuHandler
 Menu, SubMenu15.1, Add, CPR2, MenuHandler
@@ -921,21 +864,16 @@ Menu, SubMenu15.4, Add, LayingPain, MenuHandler
 Menu, SubMenu15.4, Add, Shot, MenuHandler
 Menu, SubMenu15, Add, Pain on ground, :SubMenu15.4
 
-
 Menu, SubMenu15.5, Add, Slumped, MenuHandler
 Menu, SubMenu15.5, Add, Slumped2, MenuHandler
 Menu, SubMenu15, Add, Slumped, :SubMenu15.5
 
 Menu, FullMenu, Add, Medical/Injuries, :SubMenu15
 
-
 Menu, SubMenu16, Add, Drink, MenuHandler
 Menu, SubMenu16, Add, Eat, MenuHandler
 
 Menu, FullMenu, Add, Food/Drink, :SubMenu16
-
-
-
 
 Menu, SubMenu17.1, Add, Flip, MenuHandler
 Menu, SubMenu17.1, Add, Flip2, MenuHandler
@@ -947,17 +885,13 @@ Menu, SubMenu17.2, Add, Jog3, MenuHandler
 Menu, SubMenu17.2, Add, Jog4, MenuHandler
 Menu, SubMenu17, Add, Jogging, :SubMenu17.2
 
-
 Menu, SubMenu17.3, Add, Karate, MenuHandler
 Menu, SubMenu17.3, Add, Karate2, MenuHandler
 Menu, SubMenu17, Add, Karate, :SubMenu17.3
 
-
-
 Menu, SubMenu17.4, Add, Push, MenuHandler
 Menu, SubMenu17.4, Add, Push2, MenuHandler
 Menu, SubMenu17, Add, Push, :SubMenu17.4
-
 
 Menu, SubMenu17.5, Add, SitUp, MenuHandler
 Menu, SubMenu17.5, Add, SitUps, MenuHandler
@@ -978,9 +912,6 @@ Menu, SubMenu17.7, Add, Yoga4, MenuHandler
 Menu, SubMenu17.7, Add, Yoga5, MenuHandler
 Menu, SubMenu17, Add, Yoga, :SubMenu17.7
 
-
-
-
 Menu, SubMenu17.8, Add, GolfSwing, MenuHandler
 Menu, SubMenu17.8, Add, Hiking, MenuHandler
 Menu, SubMenu17.8, Add, JumpingJacks, MenuHandler
@@ -993,12 +924,7 @@ Menu, SubMenu17.8, Add, Punching, MenuHandler
 Menu, SubMenu17.8, Add, Slugger, MenuHandler
 Menu, SubMenu17, Add, Other, :SubMenu17.8
 
-
 Menu, FullMenu, Add, Sports/Tricks, :SubMenu17
-
-
-
-
 
 Menu, SubMenu18, Add, Inspect, MenuHandler
 Menu, SubMenu18, Add, KeyFob, MenuHandler
@@ -1011,9 +937,6 @@ Menu, SubMenu18.1, Add, Mechanic5, MenuHandler
 Menu, SubMenu18, Add, Mechanic, :SubMenu18.1
 
 Menu, FullMenu, Add, Mechanic, :SubMenu18
-
-
-
 
 Menu, SubMenu19, Add, BlowKiss, MenuHandler
 
@@ -1028,7 +951,6 @@ Menu, SubMenu19, Add, Finger, :SubMenu19.2
 Menu, SubMenu19.3, Add, FingerKiss, MenuHandler
 Menu, SubMenu19.3, Add, FingerKiss2, MenuHandler
 Menu, SubMenu19, Add, Finger kiss, :SubMenu19.3
-
 
 Menu, SubMenu19.4, Add, FlipOff, MenuHandler
 Menu, SubMenu19.4, Add, FlipOff2, MenuHandler
@@ -1068,21 +990,14 @@ Menu, SubMenu19, Add, V, :SubMenu19.10
 
 Menu, FullMenu, Add, Gestures/signs, :SubMenu19
 
-
 Menu, FullMenu, Add, Exit application, ExitApplication
-
-
 
 CoordMode, Menu, Screen
 Menu, FullMenu, Show, % A_ScreenWidth/2, % A_ScreenHeight/2
-
 return
-
-
 
 MenuHandler:
 send, t/anim %A_ThisMenuItem% {enter}
-
 return
 
 ExitApplication:

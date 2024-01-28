@@ -28,3 +28,7 @@ Replace the text "FAVORITEx" with the Exact animation name you want. You can add
 
 # Why do I see some animations double?
 Some animations fit well in multiple categories. Please see the list above to see what categories every animation is placed in.
+
+# Sometimes the typing goes too fast/it doesn't fully type the command
+If you experience any issues like this, please update line 3 to use `SetKeyDelay, 1` to replace `SendMode Input`
+![image](https://github.com/Yputi/ECRP-Anim-Selector/assets/50573921/2b774279-19ad-4865-825e-c4a4e2dbf3db)

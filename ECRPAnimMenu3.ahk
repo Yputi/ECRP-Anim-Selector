@@ -1097,7 +1097,9 @@ return
 
 
 MenuHandler:
-send, t/anim %A_ThisMenuItem% {enter}
+send, t
+sleep, 50
+send, /anim %A_ThisMenuItem% {enter}
 
 return
 

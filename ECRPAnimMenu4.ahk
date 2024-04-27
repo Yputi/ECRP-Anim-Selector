@@ -1252,8 +1252,8 @@ Menu, SubMenuP1, Add, Outdoor/yard, :SubMenuP1.14
 ; PROP Fishing
 ; ----------------------------------------------------------------------------
 Menu, SubMenuP1.15, Add, fishing1, PropAnimMenuHandler
-Menu, SubMenuP1.14, Add, fishing2, PropAnimMenuHandler
-Menu, SubMenuP1.14, Add, fishing3, PropAnimMenuHandler
+Menu, SubMenuP1.15, Add, fishing2, PropAnimMenuHandler
+Menu, SubMenuP1.15, Add, fishing3, PropAnimMenuHandler
 
 Menu, SubMenuP1, Add, Fishing, :SubMenuP1.15
 

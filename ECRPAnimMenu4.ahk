@@ -184,14 +184,14 @@ Menu, SubMenu1, Add, Woogie, :SubMenu1.19
 Menu, SubMenu1.20, Add, Dan - 38 - 112, AnimMenuHandlerRange
 Menu, SubMenu1, Add, Dan, :SubMenu1.20
 
-Menu, SubMenu1.22, Add, AirHump, AnimMenuHandler
-Menu, SubMenu1.22, Add, Curtsy, AnimMenuHandler
-Menu, SubMenu1.22, Add, PodiumDance, AnimMenuHandler
-Menu, SubMenu1.22, Add, wannacme, AnimMenuHandler
-Menu, SubMenu1.22, Add, rollie, AnimMenuHandler
-Menu, SubMenu1.22, Add, renegade, AnimMenuHandler
-Menu, SubMenu1.22, Add, billy, AnimMenuHandler
-Menu, SubMenu1, Add, Other, :SubMenu1.22
+Menu, SubMenu1.21, Add, AirHump, AnimMenuHandler
+Menu, SubMenu1.21, Add, Curtsy, AnimMenuHandler
+Menu, SubMenu1.21, Add, PodiumDance, AnimMenuHandler
+Menu, SubMenu1.21, Add, wannacme, AnimMenuHandler
+Menu, SubMenu1.21, Add, rollie, AnimMenuHandler
+Menu, SubMenu1.21, Add, renegade, AnimMenuHandler
+Menu, SubMenu1.21, Add, billy, AnimMenuHandler
+Menu, SubMenu1, Add, Other, :SubMenu1.21
 
 Menu, FullMenu, Add, Dances, :SubMenu1
 

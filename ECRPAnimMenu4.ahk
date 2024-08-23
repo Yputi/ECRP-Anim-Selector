@@ -1,7 +1,7 @@
-﻿; ----------------------------------------------------------------------------
+; ----------------------------------------------------------------------------
 ; Created by Yputi (@yputi)
 ; Description: Allows users to use a menu to peform (prop) animations
-; Last Updated: 2024-04-27
+; Last Updated: 2024-08-23
 ; ----------------------------------------------------------------------------
 
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
@@ -181,10 +181,17 @@ Menu, SubMenu1.19, Add, Woogie, AnimMenuHandler
 Menu, SubMenu1.19, Add, Woogie2, AnimMenuHandler
 Menu, SubMenu1, Add, Woogie, :SubMenu1.19
 
-Menu, SubMenu1.20, Add, AirHump, AnimMenuHandler
-Menu, SubMenu1.20, Add, Curtsy, AnimMenuHandler
-Menu, SubMenu1.20, Add, PodiumDance, AnimMenuHandler
-Menu, SubMenu1, Add, Other, :SubMenu1.20
+Menu, SubMenu1.20, Add, Dan - 38 - 112, AnimMenuHandlerRange
+Menu, SubMenu1, Add, Dan, :SubMenu1.20
+
+Menu, SubMenu1.22, Add, AirHump, AnimMenuHandler
+Menu, SubMenu1.22, Add, Curtsy, AnimMenuHandler
+Menu, SubMenu1.22, Add, PodiumDance, AnimMenuHandler
+Menu, SubMenu1.22, Add, wannacme, AnimMenuHandler
+Menu, SubMenu1.22, Add, rollie, AnimMenuHandler
+Menu, SubMenu1.22, Add, renegade, AnimMenuHandler
+Menu, SubMenu1.22, Add, billy, AnimMenuHandler
+Menu, SubMenu1, Add, Other, :SubMenu1.22
 
 Menu, FullMenu, Add, Dances, :SubMenu1
 
@@ -393,6 +400,7 @@ Menu, SubMenu2.21, Add, Threaten, AnimMenuHandler
 Menu, SubMenu2.21, Add, Warming, AnimMenuHandler
 Menu, SubMenu2.21, Add, WashFace, AnimMenuHandler
 Menu, SubMenu2.21, Add, Wasted, AnimMenuHandler
+Menu, SubMenu2.21, Add, Pockets, AnimMenuHandler
 Menu, SubMenu2, Add, Other, :SubMenu2.21
 
 Menu, FullMenu, Add, Stances, :SubMenu2
@@ -461,6 +469,8 @@ Menu, SubMenu3.4, Add, Kneel2, AnimMenuHandler
 Menu, SubMenu3.4, Add, Kneel3, AnimMenuHandler
 Menu, SubMenu3.4, Add, Medic, AnimMenuHandler
 Menu, SubMenu3, Add, Kneel, :SubMenu3.4
+
+Menu, SubMenu3, Add, PickFromGround, AnimMenuHandler
 
 Menu, FullMenu, Add, Sit/Crouch/Kneel, :SubMenu3
 
@@ -881,10 +891,12 @@ Menu, SubMenu13, Add, Thumbs down, :SubMenu13.11
 
 Menu, SubMenu13, Add, Wank, AnimMenuHandler
 
+Menu, SubMenu13, Add, Cantc, AnimMenuHandler
+
 Menu, FullMenu, Add, Mocking, :SubMenu13
 
 ; ----------------------------------------------------------------------------
-; Medical/Injuries
+; Work
 ; ----------------------------------------------------------------------------
 Menu, SubMenu14.1, Add, Photo, AnimMenuHandler
 Menu, SubMenu14.1, Add, Photo2, AnimMenuHandler
@@ -905,8 +917,15 @@ Menu, SubMenu14.3, Add, Welding3, AnimMenuHandler
 Menu, SubMenu14.3, Add, Welding4, AnimMenuHandler
 Menu, SubMenu14, Add, Welding, :SubMenu14.3
 
+Menu, SubMenu14, Add, Waiter, AnimMenuHandler
+
+Menu, SubMenu14, Add, Dig2, AnimMenuHandler
+
 Menu, FullMenu, Add, Work, :SubMenu14
 
+; ----------------------------------------------------------------------------
+; Medical/Injuries
+; ----------------------------------------------------------------------------
 Menu, SubMenu15.1, Add, CPR, AnimMenuHandler
 Menu, SubMenu15.1, Add, CPR2, AnimMenuHandler
 Menu, SubMenu15, Add, CPR, :SubMenu15.1
@@ -944,6 +963,7 @@ Menu, FullMenu, Add, Medical/Injuries, :SubMenu15
 ; ----------------------------------------------------------------------------
 Menu, SubMenu16, Add, Drink, AnimMenuHandler
 Menu, SubMenu16, Add, Eat, AnimMenuHandler
+Menu, SubMenu16, Add, Fruits, AnimMenuHandler
 
 Menu, FullMenu, Add, Food/Drink, :SubMenu16
 
@@ -1023,7 +1043,7 @@ Menu, SubMenu18, Add, Welding, :SubMenu18.2
 Menu, FullMenu, Add, Mechanic, :SubMenu18
 
 ; ----------------------------------------------------------------------------
-; Hestures/signs
+; Gestures/signs
 ; ----------------------------------------------------------------------------
 Menu, SubMenu19, Add, BlowKiss, AnimMenuHandler
 
@@ -1075,7 +1095,55 @@ Menu, SubMenu19.10, Add, V, AnimMenuHandler
 Menu, SubMenu19.10, Add, V2, AnimMenuHandler
 Menu, SubMenu19, Add, V, :SubMenu19.10
 
+Menu, SubMenu19, Add, Sheesh, AnimMenuHandler
+
+Menu, SubMenu19, Add, Cantc, AnimMenuHandler
+
 Menu, FullMenu, Add, Gestures/signs, :SubMenu19
+
+; ----------------------------------------------------------------------------
+; Fortnite
+; ----------------------------------------------------------------------------
+Menu, SubMenu20, Add, Fort - 1 - 48, AnimMenuHandlerRange
+
+Menu, FullMenu, Add, Fortnite, :SubMenu20
+
+; ----------------------------------------------------------------------------
+; Tactics
+; ----------------------------------------------------------------------------
+Menu, SubMenu21, Add, tactic_holdw2, AnimMenuHandler
+Menu, SubMenu21, Add, tactic_holdw4, AnimMenuHandler
+Menu, SubMenu21, Add, tactic_holdwkn, AnimMenuHandler
+Menu, SubMenu21, Add, tactic_holdwnvg, AnimMenuHandler
+Menu, SubMenu21, Add, tactic_holdwnvg2, AnimMenuHandler
+Menu, SubMenu21, Add, tactic_hugw, AnimMenuHandler
+Menu, SubMenu21, Add, tactic_hugw2, AnimMenuHandler
+Menu, SubMenu21, Add, tactic_posew, AnimMenuHandler
+Menu, SubMenu21, Add, tactic_posew2, AnimMenuHandler
+Menu, SubMenu21, Add, tactic_posew3, AnimMenuHandler
+Menu, SubMenu21, Add, tactic_aimw, AnimMenuHandler
+Menu, SubMenu21, Add, tactic_preaimw, AnimMenuHandler
+Menu, SubMenu21, Add, tactic_runw, AnimMenuHandler
+Menu, SubMenu21, Add, tactic_tknl, AnimMenuHandler
+Menu, SubMenu21, Add, tactic_holdv, AnimMenuHandler
+Menu, SubMenu21, Add, tactic_holdsv, AnimMenuHandler
+Menu, SubMenu21, Add, tactic_holdsvs, AnimMenuHandler
+Menu, SubMenu21, Add, tactic_holdv2, AnimMenuHandler
+Menu, SubMenu21, Add, tactic_holdvsg, AnimMenuHandler
+Menu, SubMenu21, Add, tactic_holdvsg2, AnimMenuHandler
+Menu, SubMenu21, Add, tactic_radioL, AnimMenuHandler
+Menu, SubMenu21, Add, tactic_holdr, AnimMenuHandler
+
+Menu, FullMenu, Add, Tactics, :SubMenu21
+
+; ----------------------------------------------------------------------------
+; Rock/Paper/Scissors
+; ----------------------------------------------------------------------------
+Menu, SubMenu22, Add, Rock, AnimMenuHandler
+Menu, SubMenu22, Add, Paper, AnimMenuHandler
+Menu, SubMenu22, Add, Scissors, AnimMenuHandler
+
+Menu, FullMenu, Add, Rock/Paper/Scissors, :SubMenu22
 
 ; ----------------------------------------------------------------------------
 ; PROP Beverages
@@ -1342,13 +1410,33 @@ return
 AnimMenuHandler:
 send, t
 sleep, 50
-send, /anim %A_ThisMenuItem% {enter}
+send, /anim %A_ThisMenuItem%{enter}
+return
+
+AnimMenuHandlerRange:
+    StringSplit, Parts, A_ThisMenuItem, -, %A_Space%
+    BaseCommand := Trim(Parts1)
+    StartRange := Trim(Parts2)
+    EndRange := Trim(Parts3)
+
+    InputBox, UserInput, Choose an animation number, Please enter a number between %StartRange% and %EndRange%
+    if (ErrorLevel) {
+        return
+    }
+
+    if (UserInput is number and UserInput >= StartRange and UserInput <= EndRange) {
+        send, t
+        sleep, 50
+        send, /anim %BaseCommand%%UserInput%{enter}
+    } else {
+        MsgBox, Invalid input. Please enter a number between %StartRange% and %EndRange%.
+    }
 return
 
 PropAnimMenuHandler:
 send, t
 sleep, 50
-send, /panim %A_ThisMenuItem% {enter}
+send, /panim %A_ThisMenuItem%{enter}
 return
 
 ExitApplication:
